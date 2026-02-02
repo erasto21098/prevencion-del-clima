@@ -1,3 +1,4 @@
-print ("Cuanto te mide?")
-if cm>18 
-print("Buena tula bro")
+import pandas as pd
+
+df = pd.read_csv("./data/seattle-weather.csv")
+print(df.head(10))
